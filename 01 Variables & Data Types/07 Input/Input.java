@@ -63,7 +63,7 @@ public class Input {
             finally value assigned to variable is - isLoggedIn = false;
                                                   - isLoggedIn = true;
         */ 
-        boolean isLoggedIn = scanner.nextBoolean();
+        boolean isLoggedIn = scanner.nextBoolean(); 
         System.out.println(isLoggedIn);
 
         // char character = scanner.next().charAt(0);
