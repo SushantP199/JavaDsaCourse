@@ -8,6 +8,7 @@ public class MutiplicationTableOfEnteredNumberN {
 
         System.out.print("Enter a number : ");
         int number = scanner.nextInt();
+        scanner.close();
 
         int currentValueOftable = 0;
         int maximumValueOfTable = number * 10;
